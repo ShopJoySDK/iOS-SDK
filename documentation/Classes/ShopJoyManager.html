@@ -1,0 +1,1101 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>ShopJoyManager Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">ShopJoySDK </a></h1>
+				<a id="developerHome" href="../index.html">ShopJoy</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">ShopJoyManager Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/campaignWithId:">&nbsp;&nbsp;&nbsp;&nbsp;- campaignWithId:</option>
+	
+	<option value="//api/name/emptyCampaignMemory">&nbsp;&nbsp;&nbsp;&nbsp;- emptyCampaignMemory</option>
+	
+	<option value="//api/name/initWithAPIKey:logging:enableBluetoothSystemPrompt:userIdentifier:delegate:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithAPIKey:logging:enableBluetoothSystemPrompt:userIdentifier:delegate:</option>
+	
+	<option value="//api/name/openedCampaign:fromNotification:">&nbsp;&nbsp;&nbsp;&nbsp;- openedCampaign:fromNotification:</option>
+	
+	<option value="//api/name/openedQuest:fromNotification:">&nbsp;&nbsp;&nbsp;&nbsp;- openedQuest:fromNotification:</option>
+	
+	<option value="//api/name/questWithId:">&nbsp;&nbsp;&nbsp;&nbsp;- questWithId:</option>
+	
+	<option value="//api/name/removeCampaignFromMemory:">&nbsp;&nbsp;&nbsp;&nbsp;- removeCampaignFromMemory:</option>
+	
+	<option value="//api/name/removeQuestFromMemory:">&nbsp;&nbsp;&nbsp;&nbsp;- removeQuestFromMemory:</option>
+	
+	<option value="//api/name/returnCampaignMemory">&nbsp;&nbsp;&nbsp;&nbsp;- returnCampaignMemory</option>
+	
+	<option value="//api/name/returnQuestMemory">&nbsp;&nbsp;&nbsp;&nbsp;- returnQuestMemory</option>
+	
+	<option value="//api/name/setUserID:">&nbsp;&nbsp;&nbsp;&nbsp;- setUserID:</option>
+	
+	<option value="//api/name/startMonitoring">&nbsp;&nbsp;&nbsp;&nbsp;- startMonitoring</option>
+	
+	<option value="//api/name/stopMonitoring">&nbsp;&nbsp;&nbsp;&nbsp;- stopMonitoring</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/campaignWithId:">campaignWithId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/emptyCampaignMemory">emptyCampaignMemory</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithAPIKey:logging:enableBluetoothSystemPrompt:userIdentifier:delegate:">initWithAPIKey:logging:enableBluetoothSystemPrompt:userIdentifier:delegate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/openedCampaign:fromNotification:">openedCampaign:fromNotification:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/openedQuest:fromNotification:">openedQuest:fromNotification:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/questWithId:">questWithId:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeCampaignFromMemory:">removeCampaignFromMemory:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeQuestFromMemory:">removeQuestFromMemory:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/returnCampaignMemory">returnCampaignMemory</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/returnQuestMemory">returnQuestMemory</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setUserID:">setUserID:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/startMonitoring">startMonitoring</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stopMonitoring">stopMonitoring</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="ShopJoyManager Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">ShopJoyManager Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">CBCentralManagerDelegate<br />ShopJoyAnalyticsDelegate<br />ShopJoyLocationManagerDelegate<br />ShopJoyQuestManagerDelegate</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">ShopJoyHeaders.h<br />ShopJoyManager.h<br />ShopJoyManager.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithAPIKey:logging:enableBluetoothSystemPrompt:userIdentifier:delegate:">&ndash;&nbsp;initWithAPIKey:logging:enableBluetoothSystemPrompt:userIdentifier:delegate:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/startMonitoring">&ndash;&nbsp;startMonitoring</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stopMonitoring">&ndash;&nbsp;stopMonitoring</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/emptyCampaignMemory">&ndash;&nbsp;emptyCampaignMemory</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeCampaignFromMemory:">&ndash;&nbsp;removeCampaignFromMemory:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/openedCampaign:fromNotification:">&ndash;&nbsp;openedCampaign:fromNotification:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/returnCampaignMemory">&ndash;&nbsp;returnCampaignMemory</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/campaignWithId:">&ndash;&nbsp;campaignWithId:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeQuestFromMemory:">&ndash;&nbsp;removeQuestFromMemory:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/openedQuest:fromNotification:">&ndash;&nbsp;openedQuest:fromNotification:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/returnQuestMemory">&ndash;&nbsp;returnQuestMemory</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/questWithId:">&ndash;&nbsp;questWithId:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setUserID:">&ndash;&nbsp;setUserID:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p><a href="../Protocols/ShopJoyManagerDelegate.html">ShopJoyManagerDelegate</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (weak, nonatomic) id&lt;ShopJoyManagerDelegate&gt; delegate</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ShopJoyManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/campaignWithId:" title="campaignWithId:"></a>
+	<h3 class="subsubtitle method-title">campaignWithId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method returns a <a href="../Classes/ShopJoyCampaign.html">ShopJoyCampaign</a> object corresponding to the supplied BaseCampaignID. Returns nil if no corresponding campaign is found.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ShopJoyCampaign *)campaignWithId:(NSString *)<em>campaignID</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>campaignID</em></dt>
+			<dd><p>The BaseCampaignID</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p><a href="../Classes/ShopJoyCampaign.html">ShopJoyCampaign</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ShopJoyManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/emptyCampaignMemory" title="emptyCampaignMemory"></a>
+	<h3 class="subsubtitle method-title">emptyCampaignMemory</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Call to empty ShopJoyManager&rsquo;s memory. This will erase all campaigns and quests. After calling this method all found beacons/campaigns will be considered &ldquo;new&rdquo;.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)emptyCampaignMemory</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>void</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ShopJoyManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithAPIKey:logging:enableBluetoothSystemPrompt:userIdentifier:delegate:" title="initWithAPIKey:logging:enableBluetoothSystemPrompt:userIdentifier:delegate:"></a>
+	<h3 class="subsubtitle method-title">initWithAPIKey:logging:enableBluetoothSystemPrompt:userIdentifier:delegate:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initialize a ShopJoyManager object. Provide a valid API key, enable/disable logging (XCode console logs about what is going on &ldquo;under the hood&rdquo; of the ShopJoyManager) and, optionally, set a user identifier. This is a unique key to identify individual users in ShopJoy&rsquo;s analytics. If not provided, a random UUID will be used and stored on the user&rsquo;s device. This UUID will be lost on device change.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithAPIKey:(NSString *)<em>key</em> logging:(BOOL)<em>logging</em> enableBluetoothSystemPrompt:(BOOL)<em>bluetoothSystemPrompt</em> userIdentifier:(NSString *)<em>identifier</em> delegate:(id)<em>delegate</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>key</em></dt>
+			<dd><p>A ShopJoy API key.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>logging</em></dt>
+			<dd><p>A boolean to enable (YES) or disable (NO) logging events in XCode&rsquo;s console. Default is NO.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>identifier</em></dt>
+			<dd><p>Any string that is unique for the user. If not provided, the SDK will create, store and use a random UUID. When a ShopJoy user logs in later on, this ID is overwritten.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>delegate</em></dt>
+			<dd><p>Set the <a href="#//api/name/delegate">delegate</a> for ShopJoy methods here.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>id</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ShopJoyManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/openedCampaign:fromNotification:" title="openedCampaign:fromNotification:"></a>
+	<h3 class="subsubtitle method-title">openedCampaign:fromNotification:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Call to mark a specific campaign in ShopJoyManager&rsquo;s memory as read, and at the same time check it&rsquo;s validity. If a campaign is invalid, the shopJoyReportsOutdatedCampaign: method will be called. This method will log an analytics event to the CMS.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)openedCampaign:(ShopJoyCampaign *)<em>campaign</em> fromNotification:(BOOL)<em>fromNotification</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>campaign</em></dt>
+			<dd><p>The <a href="../Classes/ShopJoyCampaign.html">ShopJoyCampaign</a> object that should be marked as read</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>fromNotification</em></dt>
+			<dd><p>Pass BOOL here. Used for analytics: deciding whether user opened campaign from app or from notification</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>void</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ShopJoyManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/openedQuest:fromNotification:" title="openedQuest:fromNotification:"></a>
+	<h3 class="subsubtitle method-title">openedQuest:fromNotification:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Call to mark a specific quest in ShopJoyManager&rsquo;s memory as read. This method will log an analytics event to the CMS.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)openedQuest:(ShopJoyQuest *)<em>quest</em> fromNotification:(BOOL)<em>fromNotification</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>quest</em></dt>
+			<dd><p>The <a href="../Classes/ShopJoyQuest.html">ShopJoyQuest</a> object that should be marked as read</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>fromNotification</em></dt>
+			<dd><p>Pass BOOL here. Used for analytics: deciding whether user opened campaign from app or from notification</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>void</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ShopJoyManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/questWithId:" title="questWithId:"></a>
+	<h3 class="subsubtitle method-title">questWithId:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This method returns a <a href="../Classes/ShopJoyQuest.html">ShopJoyQuest</a> object corresponding to the supplied quest ID. Returns nil if no corresponding quest is found.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (ShopJoyQuest *)questWithId:(NSString *)<em>questID</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>questID</em></dt>
+			<dd><p>The quest ID</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p><a href="../Classes/ShopJoyQuest.html">ShopJoyQuest</a>.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ShopJoyManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeCampaignFromMemory:" title="removeCampaignFromMemory:"></a>
+	<h3 class="subsubtitle method-title">removeCampaignFromMemory:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Call to remove a specific campaign from ShopJoyManager&rsquo;s memory.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeCampaignFromMemory:(ShopJoyCampaign *)<em>campaign</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>campaign</em></dt>
+			<dd><p>The <a href="../Classes/ShopJoyCampaign.html">ShopJoyCampaign</a> object that should be removed from memory</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>void</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ShopJoyManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeQuestFromMemory:" title="removeQuestFromMemory:"></a>
+	<h3 class="subsubtitle method-title">removeQuestFromMemory:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Call to remove a specific quest from ShopJoyManager&rsquo;s memory.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeQuestFromMemory:(ShopJoyQuest *)<em>quest</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>quest</em></dt>
+			<dd><p>The <a href="../Classes/ShopJoyQuest.html">ShopJoyQuest</a> object that should be removed from memory</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>void</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ShopJoyManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/returnCampaignMemory" title="returnCampaignMemory"></a>
+	<h3 class="subsubtitle method-title">returnCampaignMemory</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns an array with all <a href="../Classes/ShopJoyCampaign.html">ShopJoyCampaign</a> objects that have been encountered. The <a href="#//api/name/emptyCampaignMemory">emptyCampaignMemory</a> method will empty this memory. Always check the &ldquo;active&rdquo; properties before presenting it to a user.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)returnCampaignMemory</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>NSArray.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ShopJoyManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/returnQuestMemory" title="returnQuestMemory"></a>
+	<h3 class="subsubtitle method-title">returnQuestMemory</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns an array with all <a href="../Classes/ShopJoyQuest.html">ShopJoyQuest</a> objects that have been encountered. The <a href="#//api/name/emptyCampaignMemory">emptyCampaignMemory</a> method will empty this memory. Always check the &ldquo;active&rdquo; properties before presenting it to a user.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)returnQuestMemory</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>NSArray.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ShopJoyManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setUserID:" title="setUserID:"></a>
+	<h3 class="subsubtitle method-title">setUserID:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Use this method to change the userID.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setUserID:(NSString *)<em>identifier</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>logging</em></dt>
+			<dd><p>Boolean setting whether logs about ShopJoy&rsquo;s activity should be logged to the console or not</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>bluetoothPrompt</em></dt>
+			<dd><p>Boolean setting whether user should be reminded to turn on Bluetooth when it&rsquo;s turned off.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>identifier</em></dt>
+			<dd><p>Any string that is unique for the user. If not provided, the SDK will create, store and use a random UUID untill a ShopJoy user is logged in. When a ShopJoy user logs in later on, this ID is overwritten.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>void.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ShopJoyManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/startMonitoring" title="startMonitoring"></a>
+	<h3 class="subsubtitle method-title">startMonitoring</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Starts the monitoring for ShopJoy campaigns. If necessary, this method will invoke a Location Services permission request</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)startMonitoring</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>void</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ShopJoyManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stopMonitoring" title="stopMonitoring"></a>
+	<h3 class="subsubtitle method-title">stopMonitoring</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Stops the monitoring for ShopJoy campaigns.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)stopMonitoring</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>void</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">ShopJoyManager.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 ShopJoy. All rights reserved. (Last updated: 2015-08-04)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>
