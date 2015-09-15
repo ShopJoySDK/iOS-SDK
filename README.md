@@ -4,6 +4,10 @@ ShopJoy iOS SDK
 Changelog
 =============
 
+1.5.3
+====
+- Mini bug fix
+
 1.5.2
 ====
 - Performance improvements
