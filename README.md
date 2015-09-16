@@ -4,6 +4,10 @@ ShopJoy iOS SDK
 Changelog
 =============
 
+1.5.4
+====
+- Fat library with i386 architecture
+
 1.5.3
 ====
 - Mini bug fix
