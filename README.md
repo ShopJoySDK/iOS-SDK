@@ -1,8 +1,17 @@
-ShopJoy iOS SDK
+More info and contact details on [http://www.shopjoy.se/]
+
+Getting started document: [http://content.shopjoy.se/iOS-SDK-docs/]
+
+Full documentation: [http://content.shopjoy.se/iOS-SDK-docs/ShopJoySDKGettingStarted.pdf]
 
 
 Changelog
 =============
+
+1.5.5
+====
+- Built for >iOS 7.0
+- Classes conform to NSCoding
 
 1.5.4
 ====
