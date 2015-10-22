@@ -6,7 +6,7 @@
 //
 
 // ShopJoy campaign object
-@interface ShopJoyCampaign : NSObject
+@interface ShopJoyCampaign : NSObject <NSCoding>
 @property NSArray *beaconIDs;
 @property NSInteger revision;
 @property NSString *campaignID;
@@ -26,7 +26,7 @@
 @property NSArray *timeslots;
 @end
 
-@interface ShopJoyQuest : NSObject
+@interface ShopJoyQuest : NSObject <NSCoding>
 @property NSString *questID;
 @property Boolean active;
 @property Boolean read;

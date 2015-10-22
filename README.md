@@ -8,6 +8,10 @@ Full documentation: [http://content.shopjoy.se/iOS-SDK-docs/ShopJoySDKGettingSta
 Changelog
 =============
 
+1.5.6
+====
+- Fixed a CocoaPods related mistake
+
 1.5.5
 ====
 - Built for >iOS 7.0
