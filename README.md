@@ -8,6 +8,10 @@ Full documentation: [http://content.shopjoy.se/iOS-SDK-docs/ShopJoySDKGettingSta
 Changelog
 =============
 
+1.5.6.1
+====
+- libShopJoySDK.a's GCC_PRECOMPILE_PREFIX_HEADER == Yes caused a lot of warnings in Xcode 7. Is set to No now.
+
 1.5.6
 ====
 - Fixed a CocoaPods related mistake
