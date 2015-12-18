@@ -1,12 +1,16 @@
-More info and contact details on [http://www.shopjoy.se/]
+More info and contact details on http://www.shopjoy.se/
 
-Getting started document: [http://content.shopjoy.se/iOS-SDK-docs/]
+Getting started document: http://content.shopjoy.se/iOS-SDK-docs/
 
-Full documentation: [http://content.shopjoy.se/iOS-SDK-docs/ShopJoySDKGettingStarted.pdf]
+Full documentation: http://content.shopjoy.se/iOS-SDK-docs/ShopJoySDKGettingStarted.pdf
 
 
 Changelog
 =============
+
+1.5.6.2
+====
+- Added a tiny partner specific feature
 
 1.5.6.1
 ====
