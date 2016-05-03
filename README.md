@@ -8,6 +8,10 @@ Full documentation: http://content.shopjoy.se/iOS-SDK-docs/ShopJoySDKGettingStar
 Changelog
 =============
 
+1.5.6.3
+====
+- Battery performance enhancements
+
 1.5.6.2
 ====
 - Added a tiny partner specific feature

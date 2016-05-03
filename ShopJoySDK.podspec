@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name = "ShopJoySDK"
-	s.version = "1.5.6.2"
+	s.version = "1.5.6.3"
 	s.summary = "ShopJoySDK"
 	s.description = "SDK for ShopJoy"
 	s.license = '(c) ShopJoy 2015. All rights reserved.'
@@ -15,4 +15,5 @@ Pod::Spec.new do |s|
 	s.preserve_paths = "libShopJoySDK.a"
 	s.vendored_libraries = "libShopJoySDK.a"
 	s.frameworks = 'CoreBluetooth', 'CoreLocation'
+	s.library = 'sqlite3'
 end
