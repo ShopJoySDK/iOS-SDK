@@ -8,6 +8,10 @@ Full documentation: http://content.shopjoy.se/iOS-SDK-docs/ShopJoySDKGettingStar
 Changelog
 =============
 
+1.5.6.4
+====
+- Fixed header file
+
 1.5.6.3
 ====
 - Battery performance enhancements

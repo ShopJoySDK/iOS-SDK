@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name = "ShopJoySDK"
-	s.version = "1.5.6.3"
+	s.version = "1.5.6.4"
 	s.summary = "ShopJoySDK"
 	s.description = "SDK for ShopJoy"
 	s.license = '(c) ShopJoy 2015. All rights reserved.'
